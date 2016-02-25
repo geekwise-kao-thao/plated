@@ -26,6 +26,7 @@ header{
     font-size:1.4rem;
     box-sizing: border-box;
     text-align: center;
+    position: fixed;
 }
 
 #header_row_one{
@@ -150,7 +151,10 @@ header{
 
 
 main{
-    background-color:grey;
+    background-image: url(http://i.imgur.com/cw9OnQ0.jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size:100%;
     margin:0;
     padding:0;
     width:100%;
