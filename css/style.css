@@ -24,7 +24,7 @@ header{
     margin:0;
     padding:0;
     width:100%;
-    height:11%;
+    height:10%;
     font-size:1.4rem;
     box-sizing: border-box;
     text-align: center;
@@ -57,6 +57,10 @@ header{
     margin-left:2rem;
 }
 
+#header_div_one i{
+    opacity:.6;
+}
+
 #header_div_two{
     background-color:white;
     display:inline-block;
@@ -69,12 +73,9 @@ header{
     text-transform: uppercase;
 }
 
-#header_div_two span{
-    color:red;
-    font-size:4.1rem;
-    font-family: serif;
-    text-transform: capitalize;
-    font-weight: 800;
+#header_div_two img{
+    transform: translateY(1rem)
+    
 }
 
 #header_div_three{
@@ -237,7 +238,7 @@ footer{
     margin:0;
     padding:0;
     width:100%;
-    height:21%;
+    height:20%;
 }
 
 #row_one{
@@ -294,51 +295,27 @@ footer{
 }
 
 #footer_div_two {
-    background-color:lightgreen;
+    background-color:white;
     margin:0;
     padding:0;
     width:23%;
     height:55px;
-    display:inline-block;
+    text-align: center;
     float:right;
 }
 
-#footer_div_two nav{
-    background-color:lightgreen;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;  
-}
-
-#footer_div_two nav ul{
-    background-color:white;
-    display:block;
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height:100%;
-    list-style: none;
-}
-
-#footer_div_two nav ul li{
-    margin:0;
-    padding:0;
-    width:calc(100%/2);
-    height:auto;
-    float:left;
-    text-align: center;
+#footer_div_two i{
+    font-size: 2rem;
     transform: translateY(1.5rem);
+    opacity: .6;
+}
+#footer_div_two span{
+    display:inline-block;
+    line-height: 1.5rem;
+    transform: translateY(1.5rem);
+    margin-left:1rem;
 }
 
-#footer_div_two nav ul li a{
-    text-decoration:none;
-    color: #323232;
-}
-
-#footer_div_two nav ul li a span{
-    margin-left:15px;
-}
 
 /*footer row two*/
 
@@ -401,52 +378,27 @@ hr{
     line-height: 5.5rem;
 }
 
-#red_box span{
-    color:red;
+#p{
+    transform: translateY(1rem);
 }
 
 #footer_div_four {
-    background-color:lightgreen;
+    background-color:white;
     margin:0;
     padding:0;
     width:14%;
-    height:55px;
+    height:100%;
     display:inline-block;
     float:right;
-}
-
-#footer_div_four nav{
-    background-color:lightgreen;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;  
-}
-
-#footer_div_four nav ul{
-    background-color:white;
-    display:block;
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height:100%;
-    list-style: none;
-}
-
-#footer_div_four nav ul li{
-    margin:0;
-    padding:0;
-    width:calc(100%/5);
-    height:auto;
-    float:left;
+    font-size:2.5rem;
     text-align: center;
+}
+
+#footer_div_four i{
+    width:calc(80%/5);
+    opacity:.5;
     transform: translateY(1.5rem);
 }
 
-#footer_div_four nav ul li a{
-    text-decoration:none;
-    color: #323232;
-    line-height:20px;
-}
 
 /*footer ends*/
