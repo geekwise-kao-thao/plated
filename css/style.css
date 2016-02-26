@@ -426,7 +426,7 @@ hr{
 /*media query starts*/
 
 /*first break adjust main, footer*/
-@media only screen and (max-width:932px)
+@media only screen and (max-width:1108px)
                    and (min-width:745px){
     
 main{
@@ -514,7 +514,6 @@ main{
 }
 
 #footer_div_three nav ul li{
-    font-weight: 100;
     width:6rem;
 }
 
