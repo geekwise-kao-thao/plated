@@ -425,14 +425,182 @@ hr{
 
 /*media query starts*/
 
-
+/*first break adjust main, footer*/
 @media only screen and (max-width:932px)
                    and (min-width:745px){
     
+main{
+    height:60%;
+}
+                       
+#main_div_one{
+    height:15rem;
+    transform: translateY(10rem)
+}
     
+}
+#main_div_one nav ul li{
+    margin:.5rem;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+#main_div_one nav ul li span{
+    font-size: 2.7rem;
+}
+
+#input{
+    height:4rem;
+    font-size: 2.7rem;
+}
+
+#button{
+    height:4rem;
+    font-size: 2rem;
+}
+
+
+/*footer*/
+
+#row_one{
+    background-color:white;
+    display:block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:5rem;
+}
+
+#footer_div_one{
+    height:100%;
+}
+
+#footer_div_one nav ul li{
+    width:55px;
+}
+
+#footer_div_one nav ul li a{
+    font-size: 1.15rem;
+}
+
+#footer_div_two {
+    height:50px;
+}
+
+#footer_div_two i{
+    font-size: 1.5rem;
+    transform: translateY(1.5rem);
+}
+#footer_div_two span{
+    margin-left:.3rem;
+    width:120px;
+}
+
+#phone{
+    width:135px;
+}
+#email{
+    width:150px;
+}
+
+
+/*footer row two*/
+
+hr{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+#row_two{
+    background-color:white;
+    display:block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:55px;
+}
+
+#footer_div_three{
+    background-color:lightgreen;
+    margin:0;
+    padding:0;
+    width:32%;
+    height:55px;
+    display:inline-block;
+    float:left;
+}
+
+#footer_div_three nav{
+    background-color:lightgreen;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;    
+}
+
+#footer_div_three nav ul{
+    background-color:white;
+    display:block;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    height:100%;
+    list-style: none;
+}
+
+#footer_div_three nav ul li{
+    margin:0;
+    padding:0;
+    width:calc(100%/5);
+    height:auto;
+    float:left;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#footer_div_three nav ul li a{
+    text-decoration:none;
+    color: #323232;
+    line-height: 5.5rem;
+}
+
+#p{
+    transform: translateY(1rem);
+}
+
+#footer_div_four {
+    background-color:white;
+    margin:0;
+    padding:0;
+    width:30%;
+    height:100%;
+    display:inline-block;
+    float:right;
+    font-size:2.5rem;
+    text-align: center;
+}
+
+#footer_div_four i{
+    width:30px;
+    opacity:1;
+    transform: translateY(1.5rem);
+    display: inline-block;
     
     
 }
+/*footer ends*/
+
+
+
+
+
+}
+
+
+
+/*first break main, footer ends*/
 
 /*media query ends*/
 
