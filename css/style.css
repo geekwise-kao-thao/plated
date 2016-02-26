@@ -159,8 +159,7 @@ header{
 main{
     background-image: url(http://i.imgur.com/cw9OnQ0.jpg);
     background-repeat: no-repeat;
-    background-image: cover;
-    background-size:100%;
+    background-size:cover;
     margin-top:15rem;
     padding:0;
     width:100%;
@@ -426,19 +425,9 @@ hr{
 /*media query starts*/
 
 /*first break adjust main, footer*/
-@media only screen and (max-width:1108px)
-                   and (min-width:745px){
+@media only screen and (max-width:933px){
     
-main{
-    height:60%;
-}
-                       
-#main_div_one{
-    height:15rem;
-    transform: translateY(10rem)
-}
-    
-}
+        
 #main_div_one nav ul li{
     margin:.5rem;
     padding:0;
@@ -446,7 +435,7 @@ main{
     height:100%;
 }
 #main_div_one nav ul li span{
-    font-size: 2.7rem;
+    font-size: 3.7rem;
 }
 
 #input{
@@ -461,7 +450,6 @@ main{
 
 
 /*footer*/
-
 #row_one{
     background-color:white;
     display:block;
@@ -485,6 +473,7 @@ main{
 
 #footer_div_two {
     height:50px;
+    width:45%;
 }
 
 #footer_div_two i{
@@ -492,15 +481,15 @@ main{
     transform: translateY(1.5rem);
 }
 #footer_div_two span{
-    margin-left:.3rem;
-    width:120px;
+    width:110px;
+    font-size:1.15rem;
 }
 
 #phone{
-    width:135px;
+    width:155px;
 }
 #email{
-    width:150px;
+    width:165px;
 }
 
 /*footer row two*/
@@ -532,15 +521,18 @@ main{
 
 /*footer ends*/
 
+}
 
+/*first break main, footer ends*/
 
-
-
+@media only screen and (max-width:877px){
+    
+    
+    
+    
 }
 
 
-
-/*first break main, footer ends*/
 
 /*media query ends*/
 
