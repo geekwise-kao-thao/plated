@@ -451,11 +451,6 @@ hr{
 
 /*footer*/
 #row_one{
-    background-color:white;
-    display:block;
-    margin:0 auto;
-    padding:0;
-    width:100%;
     height:5rem;
 }
 
@@ -524,10 +519,86 @@ hr{
 }
 
 /*first break main, footer ends*/
-
+/*start of second break main text and footer*/
 @media only screen and (max-width:877px){
     
+/*main*/    
+#main_div_one{
+    height:20rem;
+    transform: translateY(13rem)
+}
+#main_div_one nav{
+    width:33.5%;
     
+}
+#main_div_one nav ul li span{
+    font-size: 2.6rem;
+}
+
+#input{
+    height:3rem;
+    font-size: 2.3rem;
+}
+
+#button{
+    height:3.6rem;
+    font-size: 2rem;
+}
+
+    
+/*footer*/
+
+    #footer_div_one{
+        width:46%;
+    }
+#footer_div_one nav ul li{
+    width:55px;
+}
+     
+
+#footer_div_one nav ul li a{
+    font-size: 1.1rem;
+}
+
+#footer_div_two {
+    width:50%;
+}
+    
+#footer_div_two span{
+    width:90px;
+    font-size:1.1rem;
+}
+
+#phone{
+    width:135px;
+}
+#email{
+    width:145px;
+}
+
+/*footer row two*/
+
+#footer_div_three{
+    width:45%;
+}
+
+#footer_div_three nav ul li{
+    width:6rem;
+}
+
+#footer_div_three nav ul li a{
+    font-size: 1.1rem;
+}
+
+#p{
+    transform: translateY(1.5rem);
+    width:2.1rem;
+}
+
+/*footer ends*/
+
+    
+/*end of second break for main text, and footer*/
     
     
 }
