@@ -411,7 +411,9 @@ hr{
 #p{
     transform: translateY(1rem);
 }
-
+#social_media2{
+    display: none;
+}
 #footer_div_four {
     background-color:white;
     margin:0;
@@ -690,11 +692,16 @@ header{
 
 #row_one{
     height:120px;
+    width:100%;
     display: block;
-    
+    margin:0 auto;
+    text-align:center;
 }
 
 #footer_div_one{
+    background-color: white;
+    margin:0;
+    display: inline-block;
     width:100%;
     height:calc(100%/3);
 }
@@ -702,6 +709,7 @@ header{
     #footer_div_one nav{
         display:block;
         margin:0 auto;
+        width:60%;
     }
 
 #footer_div_one nav ul{
@@ -715,18 +723,24 @@ header{
 }
 
 #footer_div_one nav ul li{
-    width:calc(60%/5);
+    width:calc(100%/5);
+    height:100%;
 }
 
 #footer_div_one nav ul li a{
     font-weight: 700;
     opacity:.8;
     font-size:1.2rem;
+    line-height: 4rem;
 }
 
 #footer_div_two {
-    width:100%;
+    width:59%;
     height:calc(100%/3);
+    display: inline-block;
+    margin:0;
+    float: none;
+    
 }
 
 #footer_div_two i{
@@ -735,9 +749,9 @@ header{
     opacity: .8;
 }
 #footer_div_two span{
-    width:120px;
+    width:110px;
     font-weight: 600;
-    font-size:1.1rem;
+    font-size:1.2rem;
     font-weight: 700;
     opacity: .9;    
 }
@@ -746,101 +760,59 @@ header{
     display: inline-block;
     margin: 0;
     height:100%;
-    width:calc(60%/2);
+    width:calc(100%/2);
 }
 #email{
     display: inline-block;
     margin: 0;
     height:100%;
-    width:calc(60%/2);
+    width:calc(100%/2);
 }
+    
+#social_media2{
+    height:100%;
+    width:100%;
+    display: block;
+    margin:0 auto;
+    clear: both;
+    
+    }
 
-
+    #social_media2 i{
+        display: inline-block;
+        width:calc(90%/5);
+        float:none;
+        height:100%;
+        transform: translateY(.1rem);
+        font-size: 2.5rem;
+    }
+    
 /*footer row two*/
 
-hr{
-    margin:0;
-    padding:0;
-    width:100%;
-}
-
-#row_two{
-    background-color:white;
-    display:block;
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height:55px;
-}
 
 #footer_div_three{
-    background-color:lightgreen;
-    margin:0;
-    padding:0;
-    width:32%;
-    height:55px;
-    display:inline-block;
-    float:left;
+    float:none;
+    display: block;
+    margin: 0 auto;
 }
-
-#footer_div_three nav{
-    background-color:lightgreen;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:100%;    
-}
-
-#footer_div_three nav ul{
-    background-color:white;
-    display:block;
-    margin:0 auto;
-    padding:0;
-    width:100%;
-    height:100%;
-    list-style: none;
-}
+    
+    #footer_div_three nav ul{
+        display: block;
+        margin: 0 auto;
+        height:100%;
+    }
 
 #footer_div_three nav ul li{
-    margin:0;
-    padding:0;
-    width:calc(100%/5);
-    height:auto;
-    float:left;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-#footer_div_three nav ul li a{
-    text-decoration:none;
-    color: #323232;
-    line-height: 5.5rem;
+    width:calc(100%/3);
+    text-transform: capitalize;
 }
 
 #p{
-    transform: translateY(1rem);
+    display: none;
 }
 
 #footer_div_four {
-    background-color:white;
-    margin:0;
-    padding:0;
-    width:30%;
-    height:100%;
-    display:inline-block;
-    float:right;
-    font-size:2.5rem;
-    text-align: center;
-}
-
-#footer_div_four i{
-    width:30px;
-    opacity:1;
-    transform: translateY(1.5rem);
-    display: inline-block;
-    
-    
+    display:none;
 }
     
 /*tablet mode mdeia query footer ends */
@@ -849,6 +821,56 @@ hr{
 }
 
 /*tablet mode media query ends*/
+
+/*media query phone size starts*/
+
+@media only screen and (max-width:480px){
+    
+    
+    #footer_div_one nav{
+        width:80%;
+    }
+
+#footer_div_one nav ul li a{
+    font-size:1.1rem;
+}
+    
+    
+#footer_div_two {
+    width:70%;
+    
+}
+
+#footer_div_two span{
+    width:90px;
+    font-size:1.1rem;
+}
+
+#phone{
+    width:calc(100%/2);
+}
+#email{
+    width:calc(100%/2);
+}
+    
+#social_media2{
+    width:90%;
+    }
+
+    #social_media2 i{
+        transform: translateY(.4rem);
+        font-size: 2.5rem;
+        width:calc(80%/5);
+    }
+    
+#footer_div_three{
+    width:60%;
+}
+    
+    
+}
+
+/*media query phone size starts*/
 
 /*media query ends*/
 
