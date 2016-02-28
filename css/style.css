@@ -24,7 +24,7 @@ header{
     margin:0;
     padding:0;
     width:100%;
-    height:10%;
+    height:9.5%;
     font-size:1.4rem;
     box-sizing: border-box;
     text-align: center;
@@ -150,7 +150,8 @@ header{
 /*main start*/
 
 main{
-    margin:0;
+    
+    margin:13rem 0 0 0;
     padding:0;
     width:100%;
     height:80%;
@@ -161,7 +162,7 @@ main section{
     background-image: url(http://i.imgur.com/uNStMdG.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin-top:15rem;
+    
     padding:0;
     width:100%;
     height:100%;
@@ -174,7 +175,7 @@ main section{
     width:100%;
     height:21rem;
     text-align:center;
-    transform: translateY(10rem)
+    transform: translateY(8.5rem)
 }
 #main_div_one nav{
     display:block;
@@ -243,7 +244,7 @@ footer{
     width:100%;
     height:20%;
     position: fixed;
-    bottom:2rem;
+    bottom:0;
 }
 
 #row_one{
@@ -471,6 +472,7 @@ hr{
 
 
 /*footer*/
+    
 #row_one{
     height:5rem;
 }
@@ -734,6 +736,9 @@ header{
     
     
 /*footer*/
+    footer{
+        height: auto;
+    }
 
 #row_one{
     height:120px;
