@@ -707,7 +707,7 @@ header{
     }
     #header_div_two img{
         width:60%;
-        transform: translateY(.5rem);
+        transform: translateY(0rem);
     }
 
     main{
