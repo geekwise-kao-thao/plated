@@ -48,20 +48,23 @@ header{
     margin:0;
     padding:0;
     width:20%;
-    height:5.9rem;
-    line-height:5.5rem;
+    height:100%;
+    line-height:6rem;
     text-transform: uppercase;
 } 
 
 #header_div_one span{
     display: inline-block;
-    margin-left:2rem;
     height:100%;
-    position:absolute;
+    width:30%;
+    float:left;
 }
 
 #header_div_one i{
     opacity:.6;
+    float:left;
+    width:15%;
+    transform:translateY(2.3rem);
 }
 
 #log_in{
@@ -91,7 +94,7 @@ header{
     margin:0;
     padding:0;
     width: 20%;
-    height:5.9rem;
+    height:100%;
     
 }
 #header_div_three nav{
@@ -105,7 +108,7 @@ header{
     padding:0;
     display:block;
     height:100%;
-    line-height: 5.5rem;
+    line-height: 6rem;
     
     
     
@@ -173,7 +176,7 @@ main section{
     background-image: url(http://i.imgur.com/uNStMdG.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    margin:0;
+    margin-top:15rem;
     padding:0;
     width:100%;
     height:100%;
@@ -269,14 +272,14 @@ footer{
     background-color:lightgreen;
     margin:0;
     padding:0;
-    width:32%;
-    height:55px;
+    width:35%;
+    height:100%;
     display:inline-block;
     float:left;
 }
 
 #footer_div_one nav{
-    background-color:lightgreen;
+    background-color:white;
     margin:0;
     padding:0;
     width:100%;
@@ -302,6 +305,21 @@ footer{
     text-align: center;
     text-transform: uppercase;
 }
+#footer_div_one nav ul li:nth-of-type(1){
+    width:16%;
+}
+#footer_div_one nav ul li:nth-of-type(2){
+    width:15%;
+}
+#footer_div_one nav ul li:nth-of-type(3){
+    width:22%;
+}
+#footer_div_one nav ul li:nth-of-type(4){
+    width:15%;
+}
+#footer_div_one nav ul li:nth-of-type(5){
+    width:15%;
+}
 
 #footer_div_one nav ul li a{
     text-decoration:none;
@@ -314,7 +332,7 @@ footer{
     margin:0;
     padding:0;
     width:35%;
-    height:55px;
+    height:100%;
     text-align: center;
     float:right;
 }
@@ -336,13 +354,14 @@ footer{
 
 #phone{
     height:100%;
-    width:150px;
+    width:calc(100%/2);
     float:left;
 }
 #email{
     display: inline-block;
     height:100%;
-    width:170px;
+    width:calc(100%/2);
+    float:right;
 }
 
 
@@ -474,7 +493,23 @@ hr{
 }
 
 #footer_div_one nav ul li{
-    width:55px;
+    width:calc(100%/5);
+}
+
+#footer_div_one nav ul li:nth-of-type(1){
+    width:16%;
+}
+#footer_div_one nav ul li:nth-of-type(2){
+    width:15%;
+}
+#footer_div_one nav ul li:nth-of-type(3){
+    width:22%;
+}
+#footer_div_one nav ul li:nth-of-type(4){
+    width:15%;
+}
+#footer_div_one nav ul li:nth-of-type(5){
+    width:15%;
 }
 
 #footer_div_one nav ul li a{
@@ -482,8 +517,8 @@ hr{
 }
 
 #footer_div_two {
-    height:50px;
-    width:45%;
+    height:100%;
+    width:40%;
 }
 
 #footer_div_two i{
@@ -496,10 +531,10 @@ hr{
 }
 
 #phone{
-    width:155px;
+    width:calc(100%/2);
 }
 #email{
-    width:165px;
+    width:calc(100%/2);
 }
 
 /*footer row two*/
@@ -564,20 +599,30 @@ hr{
     
 /*footer*/
 
-    #footer_div_one{
-        width:46%;
-    }
-#footer_div_one nav ul li{
-    width:55px;
+    
+
+#footer_div_one nav ul li:nth-of-type(1){
+    width:18%;
 }
-     
+#footer_div_one nav ul li:nth-of-type(2){
+    width:17%;
+}
+#footer_div_one nav ul li:nth-of-type(3){
+    width:28%;
+}
+#footer_div_one nav ul li:nth-of-type(4){
+    width:17%;
+}
+#footer_div_one nav ul li:nth-of-type(5){
+    width:17%;
+}     
 
 #footer_div_one nav ul li a{
     font-size: 1.1rem;
 }
 
 #footer_div_two {
-    width:50%;
+    width:40%;
 }
     
 #footer_div_two span{
@@ -586,10 +631,10 @@ hr{
 }
 
 #phone{
-    width:135px;
+    width:calc(100%/2);
 }
 #email{
-    width:145px;
+    width:calc(100%/2);
 }
 
 /*footer row two*/
