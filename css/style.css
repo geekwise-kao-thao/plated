@@ -878,8 +878,11 @@ header{
     
     
     #header_div_two img{}
-    
-    
+    footer{
+    }
+    #row_one{
+        height: auto;
+    }
     #footer_div_one nav{
         width:80%;
     }
@@ -890,35 +893,66 @@ header{
     
     
 #footer_div_two {
-    width:70%;
-    
+    width:70%;    
 }
-
+    #phone i{
+        transform: translateY(-.3rem);
+    }
+    #email i{
+        transform: translateY(-.3rem);
+    }
 #footer_div_two span{
     width:90px;
     font-size:1.1rem;
+    transform: translateY(-.5rem);
 }
 
 #phone{
     width:calc(100%/2);
+    height: calc(100%/2);
 }
 #email{
     width:calc(100%/2);
+    height: calc(100%/2);
 }
     
 #social_media2{
     width:90%;
+    height: calc(100%/2);
     }
 
     #social_media2 i{
-        transform: translateY(.4rem);
         font-size: 2.5rem;
         width:calc(80%/5);
+        height:auto;
     }
     
 #footer_div_three{
     width:60%;
-}
+    height: 3rem;
+    }
+    #footer_div_three nav{
+        height:100%;
+    }
+    #footer_div_three nav ul{
+        height: 100%;
+    }
+    #footer_div_three nav ul li{
+        height: 100%;
+    }
+    #footer_div_three nav ul li:nth-of-type(1){
+        display: none;
+    }
+    #footer_div_three nav ul li:nth-of-type(2){
+        transform: translateY(-1rem);
+    }
+    #footer_div_three nav ul li:nth-of-type(3){
+        transform: translateY(-1rem);
+    }
+    #footer_div_three nav ul li:nth-of-type(4){
+        transform: translateY(-1rem);
+    }
+    
     
     
 }
@@ -967,11 +1001,22 @@ header{
     #footer_div_one nav{
         width:100%;
     }
-    
-    
+  
 }
+/*media query final ends*/  
 
-/*media query final ends*/
+/*media query for my lg phone*/
+ /*
+    @media only screen and (max-width:300px){
+        
+        #row_one{
+            height:10px;
+        }   
+        
+    }
+
+*/
+
 /*media query ends*/
 
 
