@@ -49,22 +49,22 @@ header{
     padding:0;
     width:20%;
     height:100%;
-    line-height:6rem;
     text-transform: uppercase;
 } 
 
 #header_div_one span{
     display: inline-block;
     height:100%;
-    width:30%;
+    width:40%;
     float:left;
+    line-height: 3.5rem;
 }
 
 #header_div_one i{
     opacity:.6;
     float:left;
     width:15%;
-    transform:translateY(2.3rem);
+    transform:translateY(1rem);
 }
 
 #log_in{
@@ -82,8 +82,10 @@ header{
     text-transform: uppercase;
 }
 
-#header_div_two img{
+#header_div_two img{        
+    width:100%;
     height:100%;
+    
 }
 
 #header_div_three{
@@ -107,10 +109,7 @@ header{
     padding:0;
     display:block;
     height:100%;
-    line-height: 6rem;
-    
-    
-    
+     
 }
 #header_div_three nav ul li:nth-of-type(1){
     margin:0;
@@ -136,24 +135,12 @@ header{
     font-size:1.4rem;
     text-transform: uppercase;
     color:#323232;
+    line-height: 3.5rem;
 }
 
 #sign_up{
     color:white;
     font-weight: 600;
-}
-
-#header_row_two{
-    background-color:white;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:58%;
-}
-
-#header_row_two p{
-    margin:0;
-    color:white;
 }
 
 #hr_one{
