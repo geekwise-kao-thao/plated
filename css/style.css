@@ -83,8 +83,7 @@ header{
 }
 
 #header_div_two img{
-    transform: translateY(1rem)
-    
+    height:100%;
 }
 
 #header_div_three{
@@ -189,7 +188,7 @@ main section{
     width:100%;
     height:21rem;
     text-align:center;
-    transform: translateY(14rem)
+    transform: translateY(10rem)
 }
 #main_div_one nav{
     display:block;
