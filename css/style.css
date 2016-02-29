@@ -719,7 +719,7 @@ header{
     
 #main_div_one{
     height:15rem;
-    transform: translateY(1rem);
+    transform: translateY(-.5rem);
 }
 #main_div_one nav{
     width:60%;    
