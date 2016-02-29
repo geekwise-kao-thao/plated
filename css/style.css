@@ -563,8 +563,8 @@ hr{
     
 /*main*/    
 #main_div_one{
-    height:20rem;
-    transform: translateY(13rem)
+    height:15rem;
+    transform: translateY(3rem)
 }
 #main_div_one nav{
     width:33.5%;
@@ -658,10 +658,12 @@ hr{
     
     /*header starts*/
 header{
+    background-color:white;
     height:40px;
     position: static;
 }
     #header_row_one{
+        background-color:white;
         height:100%;
     }
 #header_div_one{
@@ -673,6 +675,7 @@ header{
     }
 
     #log_in{
+        background-color:white;
         display:inline-block;
         float:left;
         height:100%;
@@ -711,30 +714,34 @@ header{
     }
 
     main{
-        margin-top:-.55rem;
+        margin-top:0rem;
     }
     
 #main_div_one{
     height:15rem;
-    transform: translateY(4rem);
+    transform: translateY(1.5rem);
 }
 #main_div_one nav{
-    width:60%;
-    
+    width:60%;    
 }
+    #main_div_one nav ul li{
+        display: block;
+        margin:0 auto;
+        
+    }
     
 #main_div_one nav ul li span{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 #input{
-    height:3rem;
+    height:2.5rem;
     width: 98%;
     font-size: 1.5rem;
 }
 
 #button{
-    height:3.5rem;
+    height:3rem;
     font-size: 1.5rem;
     font-weight: 600;
 }
