@@ -194,7 +194,7 @@ main section{
     
 }
 #main_div_one nav ul li{
-    margin:.5rem;
+    margin:0;
     padding:0;
     width:100%;
     height:100%;
@@ -213,7 +213,7 @@ main section{
 }
 
 #input{
-    margin:0;
+    margin:1rem 0 1rem 0;
     padding:0;
     height:5rem;
     width: 99%;
@@ -224,7 +224,7 @@ main section{
 #button{
     margin:0;
     padding:0;
-    height:5rem;
+    height:5.5rem;
     width:100%;
     font-size: 2.5rem;
     background-color:#56CC9D;
@@ -449,9 +449,11 @@ hr{
 /*first break adjust main, footer*/
 @media only screen and (max-width:933px){
     
+    #main_div_one nav ul{
         
+    }        
 #main_div_one nav ul li{
-    margin:.5rem;
+    margin:0;
     padding:0;
     width:100%;
     height:100%;
@@ -719,7 +721,7 @@ header{
     
 #main_div_one{
     height:15rem;
-    transform: translateY(1.5rem);
+    transform: translateY(1rem);
 }
 #main_div_one nav{
     width:60%;    
@@ -727,7 +729,6 @@ header{
     #main_div_one nav ul li{
         display: block;
         margin:0 auto;
-        
     }
     
 #main_div_one nav ul li span{
