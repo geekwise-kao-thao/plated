@@ -566,17 +566,17 @@ hr{
 /*main*/    
 #main_div_one{
     height:15rem;
-    transform: translateY(3rem)
 }
 #main_div_one nav{
     width:33.5%;
-    
+    transform: translateY(1rem)
 }
 #main_div_one nav ul li span{
     font-size: 2.6rem;
 }
 
 #input{
+    margin:.2rem 0 .2rem 0;
     height:3rem;
     width:98%;
     font-size: 2.3rem;
@@ -589,8 +589,6 @@ hr{
 
     
 /*footer*/
-
-    
 
 #footer_div_one nav ul li:nth-of-type(1){
     width:18%;
@@ -969,6 +967,7 @@ header{
     #header_div_two{
         transform: translateY(-.5rem)
     }
+    
     footer{
     }
     #row_one{
